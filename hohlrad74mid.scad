@@ -12,7 +12,7 @@ rotate([180,0,0])
 difference(){
 	cylinder(h,ro,ro);
 	{
-	scale(1.01)
+	scale(1.00)
 	gear (number_of_teeth=74,
 			circular_pitch=268/2,
 			gear_thickness = h*1.1,
